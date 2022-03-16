@@ -35,10 +35,6 @@ header{
     align-items: center;
     padding: 0.4%;
 }
-.button:hover{
-    color: white;
-    background-color: black;
-}
 
 .logo_carrito   {
     width: 40px;
