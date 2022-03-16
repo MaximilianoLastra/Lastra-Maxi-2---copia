@@ -1,0 +1,214 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;    
+}
+
+body{
+  width: 100%;
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";    
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+/*barra de navegacion*/
+
+header{
+    background-color: rgba(52, 2, 109, 0.596);
+    grid-area: header;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4%;
+}
+.logo_carrito   {
+    width: 40px;
+    justify-content: center;
+}
+
+.nav-general{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+
+.diseño{
+    padding: 25px 35px;
+    color: rgb(87, 87, 87); 
+    
+}
+
+
+/*barra de navegacion*/
+
+/*MAIN*/
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer{
+    background-color: rgba(52, 2, 109, 0.596);
+    color: rgb(87, 87, 87); 
+    grid-area: footer;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos{
+    font-size: 40px ;
+    color: white;
+}
+
+.form_section_main{
+    display: flex;
+    flex-direction: column;
+}
+.color-fuente{
+    color: white;
+}
+@media only screen and (max-width:320px){
+.celu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.nav-general{
+    align-items: center;
+}
+
+.menu-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu{
+    margin: 20px;
+}
+
+.mapa{
+    width: 95%;
+}
+
+.parrafo{
+    width: 90%;
+}
+
+}
+@media only screen and (min-width:321px) and (max-width:600px){
+    .celu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+    .nav-general{
+        align-items: center;
+    }
+    
+    .menu-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        margin: 20px;
+    }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
+@media only screen and (min-width:601px) and (max-width:955px){
+    .celu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+    .nav-general{
+        align-items: center;
+    
+    }
+    
+    .menu-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .menu{
+        margin: 20px;
+    }
+    .parrafo{
+        width: 95%;
+    }
+}
+@media only screen and (min-width:956px) and (max-width:1060px){
+    .celu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+    .nav-general{
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    .menu-contenedor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    .menu{
+        margin: 10px;
+    }
+    .parrafo{
+        width: 95%;
+    }
+    
+}
