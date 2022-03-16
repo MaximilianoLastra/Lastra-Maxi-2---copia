@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Suplementos</title>
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     
 <body>
         <header class="celu">
             <div>
-                <h3>Logo</h3>
+                <button class="button">Logo</button>  
             </div>
             <nav class="nav-general">
                 <ul class="menu-contenedor">
@@ -41,7 +42,7 @@
           
             </div>
 
-            <section>
+            <section data-aos="flip-left">
                 <img src="img/suplemento.jpg" alt="logo Suplementos" class="foto1">
             </section>
 
@@ -72,6 +73,10 @@
             </div>
             
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
     
 </html>
