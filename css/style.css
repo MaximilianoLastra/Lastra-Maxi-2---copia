@@ -140,8 +140,12 @@ footer{
 }
 
 .titulos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 40px ;
     color: white;
+    
 }
 
 .form_section_main{
@@ -192,12 +196,6 @@ footer{
 
     .nav-general{
         align-items: center;
-    }
-    .main-producto{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
     }
     
     .menu-contenedor{
