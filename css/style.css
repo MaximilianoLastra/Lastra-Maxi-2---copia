@@ -73,7 +73,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1200px;
+    min-height: 1200px;
 
 }
 .seccion{
@@ -96,7 +96,13 @@ main{
     justify-content: space-around;
     margin: 1%;
     border-radius: 5px;
-    
+
+}
+.tarjeta:hover{
+    cursor: pointer;
+  transform: scale3d(1.5, 1.5, 0.2);
+  transition: all 0.5s;
+  border-radius: 10px;
 }
 
 .producto{
@@ -183,8 +189,15 @@ footer{
         position: relative;
         align-items: center;
     }
+
     .nav-general{
         align-items: center;
+    }
+    .main-producto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     .menu-contenedor{
