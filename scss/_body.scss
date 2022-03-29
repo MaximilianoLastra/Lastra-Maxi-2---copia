@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";    
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+
+    }

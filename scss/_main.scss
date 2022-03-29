@@ -1,0 +1,54 @@
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1200px;
+    margin-top: 200px;
+
+}
+.seccion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tarjeta{
+    background-color: rgba(52, 2, 109, 0.596);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+    border-radius: 5px;
+
+}
+.tarjeta:hover{
+    cursor: pointer;
+  transform: scale3d(1.5, 1.5, 0.2);
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.producto{
+    width: 250px;
+    border-radius: 5px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+    color: black;
+    width: 40%;
+    height: 10%;
+    border-radius: 5px;
+
+}

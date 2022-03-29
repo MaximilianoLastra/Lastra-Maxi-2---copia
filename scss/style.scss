@@ -1,0 +1,16 @@
+$colorfondo: rgba(52, 2, 109, 0.596);
+
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;    
+  }
+
+
+@import "_body";
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_media";
